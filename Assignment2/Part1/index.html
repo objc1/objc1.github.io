@@ -24,7 +24,8 @@
   <main>
     <article>
       <iframe src="https://www.youtube.com/embed/ojcNcvb1olg?si=vZVL5l-JdzgMa3cQ" title="YouTube video player"
-        width="400" frameborder="0" allowfullscreen></iframe>
+        width="400" height="300" frameborder="0" allowfullscreen>
+      </iframe>
 
       <h2>Rocking the free web</h2>
 
@@ -38,29 +39,30 @@
     </article>
 
     <div class="further-info">
-      <!-- insert images with srcsets and sizes -->
-
       <a href="https://www.mozilla.org/en-US/firefox/new/">
-        <img srcset="Assets/firefox120.png 120w, Assets/firefox400.png 400w"
-          alt="Firefox logo" sizes="(max-width: 500px) 120px, (min-width: 501px) 400px">
+        <img srcset="Assets/firefox120.png 120w, Assets/firefox400.png 400w" alt="Firefox logo"
+          sizes="(max-width: 500px) 120px, (min-width: 501px) 400px">
       </a>
       <a href="https://www.mozilla.org/">
         <img srcset="Assets/mozilla-dinosaur-head120.png 120w, Assets/mozilla-dinosaur-head400.png 400w"
           alt="Firefox logo" sizes="(max-width: 500px) 120px, (min-width: 501px) 400px">
       </a>
       <a href="https://addons.mozilla.org/">
-        <img srcset="Assets/firefox-addons120.jpg 120w, Assets/firefox-addons400.jpg 400w"
-          alt="Firefox logo" sizes="(max-width: 500px) 120px, (min-width: 501px) 400px">
+        <img srcset="Assets/firefox-addons120.jpg 120w, Assets/firefox-addons400.jpg 400w" alt="Firefox logo"
+          sizes="(max-width: 500px) 120px, (min-width: 501px) 400px">
       </a>
       <a href="https://developer.mozilla.org/en-US/">
-        <img srcset="Assets/mdn120.svg 120w, Assets/mdn400.svg 400w"
-          alt="Firefox logo" sizes="(max-width: 500px) 120px, (min-width: 501px) 400px">
+        <img srcset="Assets/mdn120.svg 120w, Assets/mdn400.svg 400w" alt="Firefox logo"
+          sizes="(max-width: 500px) 120px, (min-width: 501px) 400px">
       </a>
       <div class="clearfix"></div>
     </div>
 
     <div class="red-panda">
-      <!-- insert picture element -->
+      <picture>
+        <source media="(max-width:600px)" srcset="Assets/red-panda_600p.jpg">
+        <img src="Assets/red-panda_1200p.jpg" alt="Panda" style="width:auto;">
+      </picture>
     </div>
 
   </main>
