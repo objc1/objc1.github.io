@@ -9,4 +9,9 @@ div {
   height: 150px;
   margin: auto;
   text-align: center;
+  /* 
+  I googled that the default text size is 16, so we need to solve and equasion: 
+  16X=17.5, X = 17.5/16, X = 1.093, => X = 1.1
+  */
+  font-size: 1.1rem;
 }
