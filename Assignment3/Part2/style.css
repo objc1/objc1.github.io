@@ -6,7 +6,7 @@ html {
 
 div {
   width: 200px;
-  padding: 50px;
+  padding: 70px;
   margin: auto;
   text-align: center;
   /* 
@@ -15,4 +15,6 @@ div {
   */
   font-size: 1.1rem;
   background-color: red;
+  color: whitesmoke;
+  border-radius: 15px;
 }
