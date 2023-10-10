@@ -6,7 +6,7 @@ html {
 
 div {
   width: 200px;
-  height: 150px;
+  padding: 50px;
   margin: auto;
   text-align: center;
   /* 
@@ -14,4 +14,5 @@ div {
   16X=17.5, X = 17.5/16, X = 1.093, => X = 1.1
   */
   font-size: 1.1rem;
+  background-color: red;
 }
