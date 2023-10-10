@@ -7,4 +7,6 @@ html {
 div {
   width: 200px;
   height: 150px;
+  margin: auto;
+  text-align: center;
 }
