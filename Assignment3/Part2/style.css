@@ -17,4 +17,5 @@ div {
   background-color: red;
   color: whitesmoke;
   border-radius: 15px;
+  border: solid 1px rgb(200, 0, 0)
 }
