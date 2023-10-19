@@ -63,3 +63,34 @@ h2 {
 section h2 + p {
   text-indent: 20px;
 }
+
+a:focus, :link {
+  color: #a66;
+}
+
+a:hover {
+  color: #b10
+}
+
+a:visited {
+  color: #a99;
+}
+
+a:hover, :focus {
+  text-decoration: none;
+}
+
+a {
+  outline: none;
+}
+
+a:active {
+  color: #345;
+  text-transform: uppercase;
+}
+
+a[href*="https"] {
+  background: url(assets/external-link-52.png) no-repeat 100%;
+  background-size: 16px 16px;
+  padding-right: 16px;
+}
