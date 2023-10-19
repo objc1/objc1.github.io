@@ -94,3 +94,13 @@ a[href*="https"] {
   background-size: 16px 16px;
   padding-right: 16px;
 }
+
+ul {
+  list-style: square;
+  margin: 1.5rem;
+}
+
+ol {
+  list-style-type: decimal;
+  margin: 1.5rem;
+}
