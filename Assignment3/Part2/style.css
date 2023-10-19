@@ -20,4 +20,5 @@ div {
   border: solid 1px rgb(200, 0, 0);
   background-image: linear-gradient(to bottom right, rgb(0,0,0,0) 0%, rgb(0,0,0,0.3) 30%, rgb(0,0,0,0) 100%);
   box-shadow: 5px 5px 5px black, inset 5px 5px 5px rgb(255,255,255,0.5), inset -5px -5px 5px rgb(0,0,0,0.5);
+  text-shadow: 1px 1px 5px black;
 }
