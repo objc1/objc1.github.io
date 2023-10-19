@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'MATTEHEK FREE';
+    src: url('MATTEHEKFREERegular.woff2') format('woff2'),
+        url('MATTEHEKFREERegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
