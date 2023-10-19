@@ -43,3 +43,23 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+body {
+  font-size: 10px;
+  line-height: 20px;
+  letter-spacing: 1.5px;
+  word-spacing: 5px;
+}
+
+header {
+  font-size: 1.5rem;
+  text-align: center;
+  letter-spacing: 7px;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+section h2 + p {
+  text-indent: 20px;
+}
