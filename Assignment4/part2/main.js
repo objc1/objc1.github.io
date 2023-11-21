@@ -31,3 +31,15 @@ for (var index = 0; index < filenames.length; ++index) {
 }
 
 /* Wiring up the Darken/Lighten button */
+
+btn.addEventListener("click", event => {
+	if (btn.getAttribute("class") === "dark") {
+		btn.setAttribute("class", "light");
+		btn.textContent = "Lighten";
+		overlay.style.backgroundColor = "rgba(0,0,0,0.5)";
+	} else {
+		btn.setAttribute("class", "dark");
+		btn.textContent = "Darken";
+		overlay.style.backgroundColor = "rgba(0,0,0,0)";
+	}
+})
