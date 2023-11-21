@@ -1,7 +1,7 @@
 /*
-	Name: Maxim Leypunskiy
-	File: index.html
-	Date: 20 November 2023
+  Name: Maxim Leypunskiy
+  File: index.html
+  Date: 20 November 2023
   Description: Practice in building custom JavaScript objects
 */
 
@@ -25,3 +25,15 @@ function random(min, max) {
 function randomRGB() {
   return `rgb(${random(0, 255)},${random(0, 255)},${random(0, 255)})`;
 }
+
+class Ball {
+  constructor(x, y, velX, velY, color, size) {
+    this.x = x;
+    this.y = y;
+    this.velX = velX;
+    this.velY = velY;
+    this.color = color;
+    this.size = size;
+  }
+}
+
