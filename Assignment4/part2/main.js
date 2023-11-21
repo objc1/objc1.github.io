@@ -2,7 +2,7 @@
 	Name: Maxim Leypunskiy
 	File: index.html
 	Date: 20 November 2023
-  Description: A fun app that generates random silly stories
+  Description: A JavaScript-powered image gallery
 */
 
 const displayedImage = document.querySelector('.displayed-img');
