@@ -21,7 +21,7 @@ const fileAlts = ["Closeup of a human eye", "Rock that looks like a wave", "Purp
 
 for (var index = 0; index < filenames.length; ++index) {
 	const newImage = document.createElement('img');
-	newImage.setAttribute('src', fileAlts[index]);
+	newImage.setAttribute('src', "images/" + filenames[index]);
 	newImage.setAttribute('alt', fileAlts[index]);
 	thumbBar.appendChild(newImage);
 }
