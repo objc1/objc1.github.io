@@ -1,6 +1,6 @@
 /* 
 	Name: Maxim Leypunskiy
-	File: index.html
+	File: main.js
 	Date: 20 November 2023
   Description: A fun app that generates random silly stories
 */

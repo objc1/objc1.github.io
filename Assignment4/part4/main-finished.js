@@ -1,6 +1,6 @@
 /*
   Name: Maxim Leypunskiy
-  File: index.html
+  File: main-finished.js
   Date: 20 November 2023
   Description: Added some new and interesting features to part3
 */
