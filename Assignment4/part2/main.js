@@ -1,3 +1,10 @@
+/*
+	Name: Maxim Leypunskiy
+	File: index.html
+	Date: 20 November 2023
+  Description: A fun app that generates random silly stories
+*/
+
 const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 
